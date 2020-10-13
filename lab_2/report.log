@@ -1,0 +1,60 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdftex 2020.10.13)  13 OCT 2020 15:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+! Undefined control sequence.
+l.1 \documentclass
+                  [12pt]{article}
+? 
+! Undefined control sequence.
+l.2 \usepackage
+               {listings}
+? 
+! Undefined control sequence.
+l.3 \usepackage
+               {graphicx}
+? 
+! Undefined control sequence.
+l.4 \usepackage
+               {xcolor}
+? 
+! Undefined control sequence.
+l.6 \begin
+          {document}
+? 
+! Undefined control sequence.
+l.7 \title
+          {ECEC 471 Lab 2}
+? 
+! Undefined control sequence.
+l.8 \author
+           {Nicholas Sica}
+? 
+! Undefined control sequence.
+l.9 \date
+         {October 13, 2020}
+? 
+! Undefined control sequence.
+l.10 \maketitle
+               
+? 
+! Undefined control sequence.
+l.12 \tableofcontents
+                     
+? 
+! Undefined control sequence.
+l.13 \newpage
+             
+? 
+! Interruption.
+l.14 
+     
+? exit
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
