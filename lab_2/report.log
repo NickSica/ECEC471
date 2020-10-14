@@ -1,60 +1,209 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdftex 2020.10.13)  13 OCT 2020 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.7)  14 OCT 2020 17:47
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**report.tex
-(./report.tex
-! Undefined control sequence.
-l.1 \documentclass
-                  [12pt]{article}
-? 
-! Undefined control sequence.
-l.2 \usepackage
-               {listings}
-? 
-! Undefined control sequence.
-l.3 \usepackage
-               {graphicx}
-? 
-! Undefined control sequence.
-l.4 \usepackage
-               {xcolor}
-? 
-! Undefined control sequence.
-l.6 \begin
-          {document}
-? 
-! Undefined control sequence.
-l.7 \title
-          {ECEC 471 Lab 2}
-? 
-! Undefined control sequence.
-l.8 \author
-           {Nicholas Sica}
-? 
-! Undefined control sequence.
-l.9 \date
-         {October 13, 2020}
-? 
-! Undefined control sequence.
-l.10 \maketitle
-               
-? 
-! Undefined control sequence.
-l.12 \tableofcontents
-                     
-? 
-! Undefined control sequence.
-l.13 \newpage
-             
-? 
-! Interruption.
-l.14 
-     
-? exit
-No pages of output.
+**/home/nick/ECEC471/lab_2/report.tex
+(/home/nick/ECEC471/lab_2/report.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-03> (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\lst@mode=\count175
+\lst@gtempboxa=\box45
+\lst@token=\toks16
+\lst@length=\count176
+\lst@currlwidth=\dimen135
+\lst@column=\count177
+\lst@pos=\count178
+\lst@lostspace=\dimen136
+\lst@width=\dimen137
+\lst@newlines=\count179
+\lst@lineno=\count180
+\lst@maxwidth=\dimen138
+ (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count181
+\lst@skipnumbers=\count182
+\lst@framebox=\box46
+) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count183
+\l__pdf_internal_box=\box47
+) (/home/nick/ECEC471/lab_2/report.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+\c@lstlisting=\count184
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count185
+\scratchdimen=\dimen141
+\scratchbox=\box48
+\nofMPsegments=\count186
+\nofMParguments=\count187
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count188
+\MPscratchDim=\dimen142
+\MPnumerator=\count189
+\makeMPintoPDFobject=\count190
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+<figures/asymmetric_schematic.png, id=1, 360.59718pt x 383.93437pt>
+File: figures/asymmetric_schematic.png Graphic file (type png)
+<use figures/asymmetric_schematic.png>
+Package pdftex.def Info: figures/asymmetric_schematic.png  used on input line 28.
+(pdftex.def)             Requested size: 289.07999pt x 307.78647pt.
+<figures/sim_schematic.png, id=3, 830.35219pt x 336.50719pt>
+File: figures/sim_schematic.png Graphic file (type png)
+<use figures/sim_schematic.png>
+Package pdftex.def Info: figures/sim_schematic.png  used on input line 36.
+(pdftex.def)             Requested size: 361.34999pt x 146.44106pt.
+<figures/transient.png, id=4, 1423.56844pt x 617.30624pt>
+File: figures/transient.png Graphic file (type png)
+<use figures/transient.png>
+Package pdftex.def Info: figures/transient.png  used on input line 44.
+(pdftex.def)             Requested size: 361.34999pt x 156.69043pt.
+<figures/asymmetric_dc.png, id=5, 1428.83812pt x 621.07031pt>
+File: figures/asymmetric_dc.png Graphic file (type png)
+<use figures/asymmetric_dc.png>
+Package pdftex.def Info: figures/asymmetric_dc.png  used on input line 49.
+(pdftex.def)             Requested size: 361.34999pt x 157.06778pt.
+<figures/parametric.png, id=6, 1423.56844pt x 615.0478pt>
+File: figures/parametric.png Graphic file (type png)
+<use figures/parametric.png>
+Package pdftex.def Info: figures/parametric.png  used on input line 55.
+(pdftex.def)             Requested size: 361.34999pt x 156.11717pt.
+<figures/schematic.png, id=7, 586.44093pt x 581.17125pt>
+File: figures/schematic.png Graphic file (type png)
+<use figures/schematic.png>
+Package pdftex.def Info: figures/schematic.png  used on input line 61.
+(pdftex.def)             Requested size: 289.07999pt x 286.47905pt.
+<figures/symmetric_dc.png, id=8, 1422.0628pt x 617.30624pt>
+File: figures/symmetric_dc.png Graphic file (type png)
+<use figures/symmetric_dc.png>
+Package pdftex.def Info: figures/symmetric_dc.png  used on input line 66.
+(pdftex.def)             Requested size: 361.34999pt x 156.85997pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 </home/nick/ECEC471/lab_2/figures/asymmetric_schematic.png>]
+<figures/pmos.png, id=21, 671.50874pt x 584.93532pt>
+File: figures/pmos.png Graphic file (type png)
+<use figures/pmos.png>
+Package pdftex.def Info: figures/pmos.png  used on input line 73.
+(pdftex.def)             Requested size: 289.07999pt x 251.81181pt.
+<figures/nmos.png, id=22, 1201.48875pt x 603.75563pt>
+File: figures/nmos.png Graphic file (type png)
+<use figures/nmos.png>
+Package pdftex.def Info: figures/nmos.png  used on input line 78.
+(pdftex.def)             Requested size: 289.07999pt x 145.2636pt.
+<figures/layout.png, id=23, 223.58531pt x 600.74437pt>
+File: figures/layout.png Graphic file (type png)
+<use figures/layout.png>
+Package pdftex.def Info: figures/layout.png  used on input line 83.
+(pdftex.def)             Requested size: 144.54pt x 388.3709pt.
+<figures/drc.png, id=24, 781.41937pt x 607.51968pt>
+File: figures/drc.png Graphic file (type png)
+<use figures/drc.png>
+Package pdftex.def Info: figures/drc.png  used on input line 89.
+(pdftex.def)             Requested size: 361.34999pt x 280.93637pt.
+<figures/lvs.png, id=25, 716.6775pt x 587.19376pt>
+File: figures/lvs.png Graphic file (type png)
+<use figures/lvs.png>
+Package pdftex.def Info: figures/lvs.png  used on input line 94.
+(pdftex.def)             Requested size: 361.34999pt x 296.06908pt.
+ [3 </home/nick/ECEC471/lab_2/figures/sim_schematic.png> </home/nick/ECEC471/lab_2/figures/transient.png>] [4 </home/nick/ECEC471/lab_2/figures/asymmetric_dc.png> </home/nick/ECEC471/lab_2/figures/parametric.png>]
+
+LaTeX Warning: Text page 5 contains only floats.
+
+[5 </home/nick/ECEC471/lab_2/figures/schematic.png> </home/nick/ECEC471/lab_2/figures/symmetric_dc.png>] [6 </home/nick/ECEC471/lab_2/figures/pmos.png> </home/nick/ECEC471/lab_2/figures/nmos.png>]
+Overfull \vbox (7.52634pt too high) has occurred while \output is active []
+
+ [7 </home/nick/ECEC471/lab_2/figures/layout.png> </home/nick/ECEC471/lab_2/figures/drc.png>] [8 </home/nick/ECEC471/lab_2/figures/lvs.png>] (/home/nick/ECEC471/lab_2/report.aux) ) 
+Here is how much of TeX's memory you used:
+ 3044 strings out of 480478
+ 43003 string characters out of 5905959
+ 288280 words of memory out of 5000000
+ 19081 multiletter control sequences out of 15000+600000
+ 534761 words of font info for 32 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,9n,37p,474b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/nick/ECEC471/lab_2/report.pdf (8 pages, 366517 bytes).
 PDF statistics:
- 0 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
