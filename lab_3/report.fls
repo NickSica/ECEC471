@@ -93,7 +93,6 @@ INPUT /home/nick/ECEC471/lab_3/figures/nand/nand_layout.PNG
 INPUT /home/nick/ECEC471/lab_3/figures/nor/nor_layout.PNG
 INPUT /home/nick/ECEC471/lab_3/figures/nor/nor_layout.PNG
 INPUT /home/nick/ECEC471/lab_3/figures/nor/nor_layout.PNG
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/nick/ECEC471/lab_3/figures/nand/nand_drc.PNG
 INPUT /home/nick/ECEC471/lab_3/figures/nand/nand_drc.PNG
 INPUT /home/nick/ECEC471/lab_3/figures/nand/nand_drc.PNG

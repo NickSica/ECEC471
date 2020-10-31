@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1604102404 "/home/nick/ECEC471/lab_3/report.tex" "/home/nick/ECEC471/lab_3/report.pdf" "report" 1604102406
-  "/home/nick/ECEC471/lab_3/report.aux" 1604102406 3740 d136eeb1f8f52a2f301628ce7eb3bbd0 ""
-  "/home/nick/ECEC471/lab_3/report.tex" 1604102403 9620 60004c30f8e629109d88f73d59cdf5d8 ""
+["pdflatex"] 1604102743 "/home/nick/ECEC471/lab_3/report.tex" "/home/nick/ECEC471/lab_3/report.pdf" "report" 1604102744
+  "/home/nick/ECEC471/lab_3/report.aux" 1604102744 3738 350955ffde91368656cc95a2f4ad455d ""
+  "/home/nick/ECEC471/lab_3/report.tex" 1604102742 9619 a2ea2ff76bbe9cb49b5d0fe798e84d9c ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1591545468 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1591545468 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1591545468 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -34,7 +34,7 @@
   "figures/nand/nand_dc_asymm.PNG" 1604098602 42361 ecaccd88fb496157671912fd4de9a50d ""
   "figures/nand/nand_dc_symm.PNG" 1604098602 42165 495269aae762f9c6f1dd83b09454768a ""
   "figures/nand/nand_drc.PNG" 1604098602 27463 ac1076f7efd592cddbc247f0b844dbe7 ""
-  "figures/nand/nand_layout.PNG" 1604098602 46499 236fd627f59179f5daffac40e79be37e ""
+  "figures/nand/nand_layout.PNG" 1604102643 40652 d30db74acdd2362fbc316c9a4e77c6e0 ""
   "figures/nand/nand_lvs.PNG" 1604098602 20545 22f3cc29ecbf4c6ba33bd7c939c90530 ""
   "figures/nand/nand_param.PNG" 1604098602 107748 6212d00bee4a1dd7cf2726a32fa5df09 ""
   "figures/nand/nand_schem.PNG" 1604098602 18686 85f1031ed8b2cc3a8a44765333869539 ""
@@ -49,11 +49,11 @@
   "figures/nor/nor_schem.PNG" 1604098602 19272 125e34b12fba32117d7c865807470c72 ""
   "figures/nor/nor_sim.PNG" 1604098602 15752 fb1b3d56140be81ce7d9e4916bb1116e ""
   "figures/nor/nor_tran.PNG" 1604098602 83279 fa19af7ecc5afc495ebadeabfd1dcb98 ""
-  "report.aux" 1604102406 3740 d136eeb1f8f52a2f301628ce7eb3bbd0 "pdflatex"
-  "report.tex" 1604102403 9620 60004c30f8e629109d88f73d59cdf5d8 ""
+  "report.aux" 1604102744 3738 350955ffde91368656cc95a2f4ad455d "pdflatex"
+  "report.tex" 1604102742 9619 a2ea2ff76bbe9cb49b5d0fe798e84d9c ""
   (generated)
   "report.log"
-  "/home/nick/ECEC471/lab_3/report.pdf"
   "report.aux"
-  "report.pdf"
   "/home/nick/ECEC471/lab_3/report.log"
+  "report.pdf"
+  "/home/nick/ECEC471/lab_3/report.pdf"

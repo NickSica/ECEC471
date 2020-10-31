@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.7)  30 OCT 2020 20:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.7)  30 OCT 2020 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -191,20 +191,16 @@ LaTeX Warning: Text page 5 contains only floats.
 Overfull \vbox (1.22318pt too high) has occurred while \output is active []
 
  [5 </home/nick/ECEC471/lab_3/figures/nand/nand_dc_symm.PNG> </home/nick/ECEC471/lab_3/figures/nor/nor_schem.PNG>] [6 </home/nick/ECEC471/lab_3/figures/nor/nor_sim.PNG> </home/nick/ECEC471/lab_3/figures/nor/nor_tran.PNG>]
-<figures/nand/nand_layout.png, id=46, 501.37312pt x 598.48593pt>
+<figures/nand/nand_layout.png, id=46, 373.395pt x 593.21625pt>
 File: figures/nand/nand_layout.png Graphic file (type png)
 <use figures/nand/nand_layout.png>
 Package pdftex.def Info: figures/nand/nand_layout.png  used on input line 119.
-(pdftex.def)             Requested size: 289.07999pt x 345.08562pt.
+(pdftex.def)             Requested size: 216.81pt x 344.44583pt.
 <figures/nor/nor_layout.png, id=47, 292.09125pt x 591.71063pt>
 File: figures/nor/nor_layout.png Graphic file (type png)
 <use figures/nor/nor_layout.png>
 Package pdftex.def Info: figures/nor/nor_layout.png  used on input line 124.
 (pdftex.def)             Requested size: 180.67499pt x 366.01712pt.
-
-
-LaTeX Warning: Reference `=fig:nor_drc' on page 7 undefined on input line 128.
-
 <figures/nand/nand_drc.png, id=48, 767.11594pt x 655.69969pt>
 File: figures/nand/nand_drc.png Graphic file (type png)
 <use figures/nand/nand_drc.png>
@@ -225,23 +221,19 @@ File: figures/nor/nor_lvs.png Graphic file (type png)
 <use figures/nor/nor_lvs.png>
 Package pdftex.def Info: figures/nor/nor_lvs.png  used on input line 147.
 (pdftex.def)             Requested size: 252.94499pt x 238.54196pt.
-[7 </home/nick/ECEC471/lab_3/figures/nor/nor_dc_asymm.PNG> </home/nick/ECEC471/lab_3/figures/nor/nor_param.PNG>] [8 </home/nick/ECEC471/lab_3/figures/nor/nor_dc_symm.PNG>] [9 </home/nick/ECEC471/lab_3/figures/nand/nand_layout.PNG> </home/nick/ECEC471/lab_3/figures/nor/nor_layout.PNG>] [10 </home/nick/ECEC471/lab_3/figures/nand/nand_drc.PNG> </home/nick/ECEC471/lab_3/figures/nand/nand_lvs.PNG>] [11 </home/nick/ECEC471/lab_3/figures/nor/nor_drc.PNG> </home/nick/ECEC471/lab_3/figures/nor/nor_lvs.PNG>] [12
+ [7 </home/nick/ECEC471/lab_3/figures/nor/nor_dc_asymm.PNG> </home/nick/ECEC471/lab_3/figures/nor/nor_param.PNG>] [8 </home/nick/ECEC471/lab_3/figures/nor/nor_dc_symm.PNG> </home/nick/ECEC471/lab_3/figures/nand/nand_layout.PNG>] [9 </home/nick/ECEC471/lab_3/figures/nor/nor_layout.PNG> </home/nick/ECEC471/lab_3/figures/nand/nand_drc.PNG>] [10 </home/nick/ECEC471/lab_3/figures/nand/nand_lvs.PNG> </home/nick/ECEC471/lab_3/figures/nor/nor_drc.PNG>] [11 </home/nick/ECEC471/lab_3/figures/nor/nor_lvs.PNG>] [12
 
-] (/home/nick/ECEC471/lab_3/report.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] (/home/nick/ECEC471/lab_3/report.aux) ) 
 Here is how much of TeX's memory you used:
- 3089 strings out of 480478
- 44444 string characters out of 5905959
- 289338 words of memory out of 5000000
- 19119 multiletter control sequences out of 15000+600000
- 535068 words of font info for 33 fonts, out of 8000000 for 9000
+ 3087 strings out of 480478
+ 44415 string characters out of 5905959
+ 289337 words of memory out of 5000000
+ 19117 multiletter control sequences out of 15000+600000
+ 534761 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,9n,37p,238b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on /home/nick/ECEC471/lab_3/report.pdf (12 pages, 543544 bytes).
+Output written on /home/nick/ECEC471/lab_3/report.pdf (12 pages, 540972 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
