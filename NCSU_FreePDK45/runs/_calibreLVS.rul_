@@ -1,5 +1,5 @@
 //
-//  Rule file generated on Tue Nov 03 21:16:15 EST 2020
+//  Rule file generated on Thu Nov 05 20:10:32 EST 2020
 //     by Calibre Interactive - LVS (v2015.3_25.16)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
@@ -7,17 +7,17 @@
 //
 
 PRECISION 2000
-LAYOUT PATH  "std_mux_15.calibre.db"
-LAYOUT PRIMARY "std_mux_15"
+LAYOUT PATH  "std_inv_chain.calibre.db"
+LAYOUT PRIMARY "std_inv_chain"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/home/njs82@drexel.edu/ECEC471/NCSU_FreePDK45/runs/std_mux_15.src.net"
-SOURCE PRIMARY "std_mux_15"
+SOURCE PATH "/home/njs82@drexel.edu/ECEC471/NCSU_FreePDK45/runs/std_inv_chain.src.net"
+SOURCE PRIMARY "std_inv_chain"
 SOURCE SYSTEM SPICE
 
 MASK SVDB DIRECTORY "svdb" QUERY
 
-LVS REPORT "std_mux_15.lvs.report"
+LVS REPORT "std_inv_chain.lvs.report"
 
 LVS REPORT OPTION NONE
 LVS FILTER UNUSED OPTION NONE SOURCE
@@ -40,8 +40,8 @@ VIRTUAL CONNECT COLON NO
 VIRTUAL CONNECT REPORT NO
 
 LVS EXECUTE ERC YES
-ERC RESULTS DATABASE "std_mux_15.erc.results"
-ERC SUMMARY REPORT "std_mux_15.erc.summary" REPLACE HIER
+ERC RESULTS DATABASE "std_inv_chain.erc.results"
+ERC SUMMARY REPORT "std_inv_chain.erc.summary" REPLACE HIER
 ERC CELL NAME YES CELL SPACE XFORM
 ERC MAXIMUM RESULTS 1000
 ERC MAXIMUM VERTEX 4096

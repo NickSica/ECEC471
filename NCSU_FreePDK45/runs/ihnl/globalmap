@@ -1,8 +1,9 @@
 CADENCE IHNL01070
 $model
-ECEC471_Lib/std_nand_15/schematic std_nand_15
+ECEC471_Lib/std_inv_3_69x/schematic std_inv_3_69x
+ECEC471_Lib/std_inv_chain/schematic std_inv_chain
 ECEC471_Lib/std_inv_15/schematic std_inv_15
-ECEC471_Lib/std_mux_15/schematic std_mux_15
+ECEC471_Lib/std_inv_13_62x/schematic std_inv_13_62x
 $endmodel
 $net
 gnd! gnd!

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      njs82
+HostName                       xunil-03.coe.drexel.edu
+ProcessIdentifier              19743
+ProcessCreationTime_UTC        1604608935
+ProcessCreationTime_Readable   Thu Nov  5 15:42:15 2020 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/njs82@drexel.edu/ECEC471/NCSU_FreePDK45/ECEC471_Lib/std_inv_15/layout/layout.oa.cdslck
+TimeEditLocked                 Thu Nov  5 19:50:49 2020 EST

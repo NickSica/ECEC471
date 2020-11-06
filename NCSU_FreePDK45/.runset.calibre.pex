@@ -1,5 +1,5 @@
 *pexRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibrexRC.rul
-*pexRunDir: /home/njs82@drexel.edu/NCSU_FreePDK45
+*pexRunDir: /home/njs82@drexel.edu/ECEC471/NCSU_FreePDK45/runs
 *pexLayoutPaths: std_inv_chain.calibre.db
 *pexLayoutPrimary: std_inv_chain
 *pexLayoutLibrary: ECEC471_Lib
@@ -9,7 +9,6 @@
 *pexSourcePrimary: std_inv_chain
 *pexSourceLibrary: ECEC471_Lib
 *pexSourceView: schematic
-*pexPexGroundName: 1
 *pexPexGroundNameValue: gnd!
 *pexReportFile: std_inv_chain.lvs.report
 *pexPexNetlistFile: std_inv_chain.pex.netlist

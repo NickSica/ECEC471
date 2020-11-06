@@ -1,5 +1,6 @@
-CADENCE IHNL01073
+CADENCE IHNL01074
 
 ECEC471_Lib std_inv_15 schematic cds0
-ECEC471_Lib std_nand_15 schematic cds1
-ECEC471_Lib std_mux_15 schematic cds2
+ECEC471_Lib std_inv_13_62x schematic cds1
+ECEC471_Lib std_inv_3_69x schematic cds2
+ECEC471_Lib std_inv_chain schematic cds3

@@ -1,19 +1,19 @@
 *lvsRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreLVS.rul
 *lvsRunDir: /home/njs82@drexel.edu/ECEC471/NCSU_FreePDK45/runs
-*lvsLayoutPaths: std_mux_15.calibre.db
-*lvsLayoutPrimary: std_mux_15
+*lvsLayoutPaths: std_inv_chain.calibre.db
+*lvsLayoutPrimary: std_inv_chain
 *lvsLayoutLibrary: ECEC471_Lib
 *lvsLayoutView: layout
 *lvsLayoutGetFromViewer: 1
-*lvsSourcePath: std_mux_15.src.net
-*lvsSourcePrimary: std_mux_15
+*lvsSourcePath: std_inv_chain.src.net
+*lvsSourcePrimary: std_inv_chain
 *lvsSourceLibrary: ECEC471_Lib
 *lvsSourceView: schematic
 *lvsSourceGetFromViewer: 1
-*lvsSpiceFile: std_mux_15.sp
-*lvsERCDatabase: std_mux_15.erc.results
-*lvsERCSummaryFile: std_mux_15.erc.summary
-*lvsReportFile: std_mux_15.lvs.report
+*lvsSpiceFile: std_inv_chain.sp
+*lvsERCDatabase: std_inv_chain.erc.results
+*lvsERCSummaryFile: std_inv_chain.erc.summary
+*lvsReportFile: std_inv_chain.lvs.report
 *cmnWarnLayoutOverwrite: 0
 *cmnWarnSourceOverwrite: 0
 *cmnShowOptions: 1
@@ -24,4 +24,4 @@
 *cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *cmnFDILayoutLibrary: ECEC471_Lib
 *cmnFDILayoutView: layout
-*cmnFDIDEFLayoutPath: std_mux_15.def
+*cmnFDIDEFLayoutPath: std_inv_chain.def
