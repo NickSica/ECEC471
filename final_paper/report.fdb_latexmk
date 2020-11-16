@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex report"] 1605052722 "report.aux" "report.bbl" "report" 1605052723
+["bibtex report"] 1605052722 "report.aux" "report.bbl" "report" 1605216361
   "/usr/share/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1591525267 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
   "ref.bib" 1605045493 2855 de310832ff7870c0b63b1bdad94fda94 ""
-  "report.aux" 1605052723 2620 3fe20796ef861c72ebc4655af21071b5 "pdflatex"
+  "report.aux" 1605216361 2620 3fe20796ef861c72ebc4655af21071b5 "pdflatex"
   (generated)
-  "report.bbl"
   "report.blg"
-["pdflatex"] 1605052722 "/home/nick/ECEC471/final_paper/report.tex" "/home/nick/ECEC471/final_paper/report.pdf" "report" 1605052723
-  "/home/nick/ECEC471/final_paper/report.aux" 1605052723 2620 3fe20796ef861c72ebc4655af21071b5 ""
-  "/home/nick/ECEC471/final_paper/report.tex" 1605052720 9632 938cc7ff9a7a30f15e9b239d662e0792 ""
+  "report.bbl"
+["pdflatex"] 1605216360 "/home/nick/ECEC471/final_paper/report.tex" "/home/nick/ECEC471/final_paper/report.pdf" "report" 1605216361
+  "/home/nick/ECEC471/final_paper/report.aux" 1605216361 2620 3fe20796ef861c72ebc4655af21071b5 ""
+  "/home/nick/ECEC471/final_paper/report.tex" 1605216359 9632 938cc7ff9a7a30f15e9b239d662e0792 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1591545468 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1591545468 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1591545468 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -57,12 +57,12 @@
   "figures/fpni.png" 1605043824 239550 b6c539853c18c15a376930977733c92a ""
   "figures/inter_fab.png" 1605043824 21593 919dc619eb3543551a1e55f143548d7c ""
   "figures/nanowire_transistor.png" 1605045984 217775 2e7aa249760b1fae106434068f4dd6f2 ""
-  "report.aux" 1605052723 2620 3fe20796ef861c72ebc4655af21071b5 "pdflatex"
+  "report.aux" 1605216361 2620 3fe20796ef861c72ebc4655af21071b5 "pdflatex"
   "report.bbl" 1605052722 2285 ee3bdc4bf48824ba361d180e093adf8b "bibtex report"
-  "report.tex" 1605052720 9632 938cc7ff9a7a30f15e9b239d662e0792 ""
+  "report.tex" 1605216359 9632 938cc7ff9a7a30f15e9b239d662e0792 ""
   (generated)
-  "report.log"
-  "/home/nick/ECEC471/final_paper/report.pdf"
-  "report.pdf"
   "/home/nick/ECEC471/final_paper/report.log"
+  "report.log"
   "report.aux"
+  "report.pdf"
+  "/home/nick/ECEC471/final_paper/report.pdf"

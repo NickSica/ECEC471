@@ -4,155 +4,100 @@
 \usepackage{xcolor}
 
 \begin{document}
-\title{ECEC 471 Lab 3}
+\title{ECEC 471 Lab 5}
 \author{Nicholas Sica}
-\date{October 29, 2020}
+\date{November 16, 2020}
 \maketitle
 
 \section{Introduction}
 \subsection{Overview}
-This lab is meant to use the knowledge gained in lab 2 to build a symmetric version of the nand and nor gates.
-CMOS circuits are designed by tying the outputs of a pull down and pull up network together. For the nand gate, the pull up network is two pmos transistors in parallel tied to
-voltage high, or Vdd, and the pull down network is two nmos transistors in series tied to voltage low, or ground. The nor gate has the pull-up and pull-down networks swapped.
-A nand outputs a zero when both inputs are high and a one otherwise, while a nor outputs a zero when either input is high and a zero otherwise.
-Rise time and fall time are the time it takes for the ouput to rise from 10\% to 90\% of the total voltage or fall from 90\% to 10\% of the total voltage.
-Propagation delay is the time it takes for the output to appear after the input, usually measured by taking the difference of the 50\% marks of the input and output.
-\subsection{Symmetric Gates}
-A symmetric gate is a gate whose worst case rise and fall times are the same. In other words, the input and output voltage cross the half point of Vdd at the same time. We get a
-symmetric gate by keeping the non-worst case path constant and changing the other. The path usually kept constant in simple gate is the path with the parallel transistors, while
-the series transistors are changed. This is the pull-down network for the nand and the pull-up network for the nor in this lab.
+This lab is meant to use the knowledge gained in the previous labs to build a multiplexer.
+A multiplexer is a device that uses a select signal to select between different inputs tied
+to it. There are many different size multiplexers, but for this lab a 2-to-1 multiplexer was built.
+Rise time and fall time are the time it takes for the ouput to rise from 20\% to 80\% of the total
+voltage or fall from 80\% to 20\% of the total voltage. Propagation delay is the time it takes for
+the output to appear after the input, usually measured by taking the difference of the 50\% marks
+of the input and output.
 \section{Simulation and Analysis}
-\subsection{NAND Schematic Design}
-Figure~\ref{fig:nand_schem} shows the transistor-level schematic of the nand gate after the ideal width for the nmos transistors was found.
-The initial width of every transistor in the circuit was 90nm before the change and the length of every transistor in the circuit is 50nm. After the change, the width of the nmos
-transistors became 200nm.
+\subsection{Schematic Design}
+Figure~\ref{fig:schem} shows the transistor-level schematic of the multiplexer.
+It is made up of an inverter leading into a nand tied to one side of a nand gate,
+while a nand is tied to the other side of the nand gate. The width of all the devices is the
+default symmetric version of that gate.
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=4in]{figures/nand/nand_schem.png}
-  \caption{Transistor-level Symmetric NAND Schematic}\label{fig:nand_schem}
+  \includegraphics[width=5in]{figures/schem.png}
+  \caption{Transistor-level Mux Schematic}\label{fig:schem}
 \end{figure}
-Figure~\ref{fig:nand_sim} shows the simulation schematic with the source and load. A pulse is used so we can measure the rise and fall times as well as the propagation delay. The
-pulse has an amplitude of 1.2V, a period of 2ns, a rise time of 5ps, a fall time of 5ps and a pulse width of 1ns. A 5fF capacitor was tied to the output to get it closer to a
-realistic model where the output of the nand gate would have some capacitance.
+Figure~\ref{fig:sim} shows the simulation schematic with the source and load. 
+Three different pulses are used so we can measure the propagation delay of the select signal
+given different sets of input signals. All the pulses have an amplitude of 1.2V, a rise time of
+10ps, and a fall time of 10ps.
+While the inputs have a pulse width of 3ns and a period of 6ns, the select signal has a pulse width of 1ns and a
+period of 2ns. The only signal with a delay is in1 with a value of 3ns, which allows us to get the values we need
+on the table.
+A 10fF capacitor was tied to the output to get it closer to a realistic model where the output of the
+multiplexer would have some capacitance.
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=5in]{figures/nand/nand_sim.png}
-  \caption{NAND Simulation Schematic}\label{fig:nand_sim}
+  \includegraphics[width=5in]{figures/sim.png}
+  \caption{Mux Simulation Schematic}\label{fig:sim}
 \end{figure}
-The transient analysis and DC response of the circuit are shown in Figure~\ref{fig:nand_tran} and Figure~\ref{fig:nand_dc_asymm} respectively. Using the transient analysis graphs a
-rise time of 28.67ps, a fall time of 27.70ps, and propagation delay of 9.49ps were all easily found. The switching voltage was found to be 696.338mV using the DC response graph
-which is not the desired 0.6V we want for a symmetric nand gate.
+The transient analysis is shown in Figure~\ref{fig:transient}. Using the transient analysis graph
+rise time of 108.52ps and a fall time of 52.49ps were easily found. 
+The values for the propagation delays are listed in Table~\ref{table:results}.
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=5in]{figures/nand/nand_tran.png}
-  \caption{NAND Transient Analysis}\label{fig:nand_tran}
+  \includegraphics[width=5in]{figures/transient.png}
+  \caption{Mux Transient Analysis}\label{fig:transient}
 \end{figure}
-\begin{figure}[!htb]
+\begin{table}[!htb]
   \centering
-  \includegraphics[width=5in]{figures/nand/nand_dc_asymm.png}
-  \caption{DC Response of an Asymmetric NAND Gate}\label{fig:nand_dc_asymm}
-\end{figure}
-To find the desired width of the pmos transistor, we used parametric analysis to get Figure~\ref{fig:nand_param} and found that a width of 200nm gave us a switching voltage of
-about 0.6V.
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=5in]{figures/nand/nand_param.png}
-  \caption{NAND Parametric Analysis}\label{fig:nand_param}
-\end{figure}
-After the schematic was updated to use the new width, DC response was simulated and graphed again to give us Figure~\ref{fig:nand_dc_symm} which shows a switching voltage
-of about 0.6V, which is desired.
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=5in]{figures/nand/nand_dc_symm.png}
-  \caption{DC Response of a Symmetric NAND Gate}\label{fig:nand_dc_symm}
-\end{figure}
-\subsection{NOR Schematic Design}
-Figure~\ref{fig:nor_schem} shows the transistor-level schematic of the nor gate after the ideal width for the nmos transistors was found.
-The initial width of every transistor in the circuit was 90nm before the change and the length of every transistor in the circuit is 50nm. After the change, the width of the nmos
-transistors became 547.5nm.
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=4in]{figures/nor/nor_schem.png}
-  \caption{Transistor-level Symmetric NOR Schematic}\label{fig:nor_schem}
-\end{figure}
-Figure~\ref{fig:nor_sim} shows the simulation schematic with the source and load. A pulse is used so we can measure the rise and fall times as well as the propagation delay. The
-pulse has an amplitude of 1.2V, a period of 2ns, a rise time of 5ps, a fall time of 5ps and a pulse width of 1ns. A 5fF capacitor was tied to the output to get it closer to a
-realistic model where the output of the nor gate would have some capacitance.
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=5in]{figures/nor/nor_sim.png}
-  \caption{NOR Simulation Schematic}\label{fig:nor_sim}
-\end{figure}
-The transient analysis and DC response of the circuit are shown in Figure~\ref{fig:nor_tran} and Figure~\ref{fig:nor_dc_asymm} respectively. Using the transient analysis graphs a
-rise time of 98.88, a fall time of 17.99ps, and propagation delay of 13.70ps were all easily found. The switching voltage was found to be 412.29mV using the DC response graph
-which is not the desired 0.6V we want for a symmetric nor gate.
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=5in]{figures/nor/nor_tran.png}
-  \caption{NOR Transient Analysis}\label{fig:nor_tran}
-\end{figure}
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=5in]{figures/nor/nor_dc_asymm.png}
-  \caption{DC Response of an Asymmetric NOR Gate}\label{fig:nor_dc_asymm}
-\end{figure}
-To find the desired width of the pmos transistor, we used parametric analysis to get Figure~\ref{fig:nor_param} and found that a width of 547.5nm gave us a switching voltage of
-about 0.6V.
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=5in]{figures/nor/nor_param.png}
-  \caption{NOR Parametric Analysis}\label{fig:nor_param}
-\end{figure}
-After the schematic was updated to use the new width, DC response was simulated and graphed again to give us Figure~\ref{fig:nor_dc_symm} which shows a switching voltage
-of about 0.6V, which is desired.
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=5in]{figures/nor/nor_dc_symm.png}
-  \caption{DC Response of a Symmetric NOR Gate}\label{fig:nor_dc_symm}
-\end{figure}
+  \caption{Propagation Delay of Select}\label{table:results}
+  \begin{tabular}{ |l|l|l|l|l| }
+    \hline
+    IN0 & IN1 & SEL & Q & Delay(ps) \\
+    \hline
+    0 & 1 & 0 & 0 & 49.26 \\
+    0 & 1 & 1 & 1 & 89.77 \\
+    1 & 0 & 0 & 1 & 91.24 \\
+    1 & 0 & 1 & 0 & 54.20 \\
+    \hline
+  \end{tabular}
+\end{table}
 \subsection{Layout Design}
-After the respective gate's schematic was finished, layout was done. The pmos and nmos were built first, taking special care to make sure the width of the
-transistors match the schematic. The pmos and nmos circuits were built first with the Vdd and ground rails being added to the design after as shown in Figure~\ref{fig:nand_layout}.
-The same was done for the nor layout and is shown Figure~\ref{fig:nor_layout}.
+After the multiplexer's schematic was finished, layout was done. The layout was done using
+pitch matching and using the previous layouts that were created for the symmtric gates.
+After the gates' layouts were place metal was placed between the designs and the pins were
+placed. A second metal was also used to route parts that are supposed to be tied together, but are
+on opposite sides of the design. The layout is shown in Figure~\ref{fig:layout}.
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=3in,angle=90]{figures/nand/nand_layout.png}
-  \caption{NAND Layout}\label{fig:nand_layout}
+  \includegraphics[width=5in]{figures/layout.png}
+  \caption{Mux Layout}\label{fig:layout}
+\end{figure}
+Lastly, design rule checking(DRC) is used to make sure that no design rules are being violated and
+everything is fixed very painstakingly. The results for the design rule checking are shown in
+Figure~\ref{fig:drc}. After that layout versus schematic(LVS) was used to make sure the layout matches
+the design modeled with the schematic and is shown in Figure~\ref{fig:lvs}.
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=3.5in]{figures/drc.png}
+  \caption{DRC Results}\label{fig:drc}
 \end{figure}
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=2.5in,angle=90]{figures/nor/nor_layout.png}
-  \caption{NOR Layout}\label{fig:nor_layout}
-\end{figure}
-Lastly, design rule checking(DRC) is used to make sure that no design rules are being violated and everything is fixed very painstakingly. The results for the nand and nor gate can
-be seen in Figure~\ref{fig:nand_drc} and Figure~\ref{fig:nor_drc}, respectively  After that layout versus schematic(LVS) was used to make sure our layout matches
-the design we modeled with the schematic and can be seen in Figure~\ref{fig:nand_lvs} and Figure~\ref{fig:nor_lvs}, respectively.
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=3.5in]{figures/nand/nand_drc.png}
-  \caption{NAND DRC Results}\label{fig:nand_drc}
-\end{figure}
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=3.5in]{figures/nand/nand_lvs.png}
-  \caption{NAND LVS Results}\label{fig:nand_lvs}
-\end{figure}
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=3.5in]{figures/nor/nor_drc.png}
-  \caption{NOR DRC Results}\label{fig:nor_drc}
-\end{figure}
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=3.5in]{figures/nor/nor_lvs.png}
-  \caption{NOR LVS Results}\label{fig:nor_lvs}
+  \includegraphics[width=3.5in]{figures/lvs.png}
+  \caption{LVS Results}\label{fig:lvs}
 \end{figure}
 \clearpage
 \section{Conclusion}
-The lab was a very good way to cement the fundamentals we picked up in lab two by creating two essential gates in any digital designers toolkit.
-It helped me further get used to the tools and use them extensively to fine tune my design and make sure everything was working as it should. 
-It also helped me get a deeper understanding of the underlying technologies. The only thing I wish I could change is making it easier to find the correct value for a symmetric gate,
-which was made a bit easier to tell if the value was correct by the methods we learned in class. Still, though, it is a lot of try, check, and revise to get the perfect value.
+The lab was a great way to cement everything that was learned previously and get even further experience
+creating a layout with previously designed gates. Pitch matching saves a lot of time in the long run and
+allows heavy design reuse. It also helped in tracking down any issues as the designs of the gates have
+been verified, so if there was anything wrong, it was easy to figure out that it was in the interconnection
+of the separate gates. This lab allowed us to get insight into one of the most important tools in any
+digital designers toolbox, the multiplexer.
 \end{document}
 %%% Local Variables:
 %%% mode: latex
