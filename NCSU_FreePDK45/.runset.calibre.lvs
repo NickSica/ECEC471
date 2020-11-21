@@ -1,19 +1,19 @@
 *lvsRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreLVS.rul
 *lvsRunDir: /home/njs82@drexel.edu/ECEC471/NCSU_FreePDK45/runs
-*lvsLayoutPaths: std_inv_chain.calibre.db
-*lvsLayoutPrimary: std_inv_chain
+*lvsLayoutPaths: std_d_flip_flop.calibre.db
+*lvsLayoutPrimary: std_d_flip_flop
 *lvsLayoutLibrary: ECEC471_Lib
 *lvsLayoutView: layout
 *lvsLayoutGetFromViewer: 1
-*lvsSourcePath: std_inv_chain.src.net
-*lvsSourcePrimary: std_inv_chain
+*lvsSourcePath: std_d_flip_flop.src.net
+*lvsSourcePrimary: std_d_flip_flop
 *lvsSourceLibrary: ECEC471_Lib
 *lvsSourceView: schematic
 *lvsSourceGetFromViewer: 1
-*lvsSpiceFile: std_inv_chain.sp
-*lvsERCDatabase: std_inv_chain.erc.results
-*lvsERCSummaryFile: std_inv_chain.erc.summary
-*lvsReportFile: std_inv_chain.lvs.report
+*lvsSpiceFile: std_d_flip_flop.sp
+*lvsERCDatabase: std_d_flip_flop.erc.results
+*lvsERCSummaryFile: std_d_flip_flop.erc.summary
+*lvsReportFile: std_d_flip_flop.lvs.report
 *cmnWarnLayoutOverwrite: 0
 *cmnWarnSourceOverwrite: 0
 *cmnShowOptions: 1
@@ -24,4 +24,4 @@
 *cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *cmnFDILayoutLibrary: ECEC471_Lib
 *cmnFDILayoutView: layout
-*cmnFDIDEFLayoutPath: std_inv_chain.def
+*cmnFDIDEFLayoutPath: std_d_flip_flop.def
