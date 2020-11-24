@@ -1,0 +1,174 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.7)  23 NOV 2020 19:42
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/nick/ECEC471/lab_6/report.tex
+(/home/nick/ECEC471/lab_6/report.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-03> (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\lst@mode=\count175
+\lst@gtempboxa=\box45
+\lst@token=\toks16
+\lst@length=\count176
+\lst@currlwidth=\dimen135
+\lst@column=\count177
+\lst@pos=\count178
+\lst@lostspace=\dimen136
+\lst@width=\dimen137
+\lst@newlines=\count179
+\lst@lineno=\count180
+\lst@maxwidth=\dimen138
+ (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count181
+\lst@skipnumbers=\count182
+\lst@framebox=\box46
+) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count183
+\l__pdf_internal_box=\box47
+) (/home/nick/ECEC471/lab_6/report.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+\c@lstlisting=\count184
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count185
+\scratchdimen=\dimen141
+\scratchbox=\box48
+\nofMPsegments=\count186
+\nofMParguments=\count187
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count188
+\MPscratchDim=\dimen142
+\MPnumerator=\count189
+\makeMPintoPDFobject=\count190
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+<figures/schem.png, id=1, 1135.99406pt x 542.025pt>
+File: figures/schem.png Graphic file (type png)
+<use figures/schem.png>
+Package pdftex.def Info: figures/schem.png  used on input line 32.
+(pdftex.def)             Requested size: 361.34999pt x 172.40944pt.
+<figures/sim.png, id=3, 1009.52156pt x 442.65375pt>
+File: figures/sim.png Graphic file (type png)
+<use figures/sim.png>
+Package pdftex.def Info: figures/sim.png  used on input line 43.
+(pdftex.def)             Requested size: 361.34999pt x 158.44337pt.
+<figures/transient.png, id=4, 1428.83812pt x 541.27219pt>
+File: figures/transient.png Graphic file (type png)
+<use figures/transient.png>
+Package pdftex.def Info: figures/transient.png  used on input line 53.
+(pdftex.def)             Requested size: 361.34999pt x 136.88695pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 </home/nick/ECEC471/lab_6/figures/schem.PNG> </home/nick/ECEC471/lab_6/figures/sim.PNG>]
+<figures/layout.png, id=18, 1186.4325pt x 440.39531pt>
+File: figures/layout.png Graphic file (type png)
+<use figures/layout.png>
+Package pdftex.def Info: figures/layout.png  used on input line 64.
+(pdftex.def)             Requested size: 361.34999pt x 134.12885pt.
+<figures/drc.png, id=19, 843.15pt x 565.36218pt>
+File: figures/drc.png Graphic file (type png)
+<use figures/drc.png>
+Package pdftex.def Info: figures/drc.png  used on input line 73.
+(pdftex.def)             Requested size: 252.94499pt x 169.60995pt.
+<figures/lvs.png, id=20, 618.81187pt x 560.0925pt>
+File: figures/lvs.png Graphic file (type png)
+<use figures/lvs.png>
+Package pdftex.def Info: figures/lvs.png  used on input line 78.
+(pdftex.def)             Requested size: 252.94499pt x 228.94716pt.
+ [3 </home/nick/ECEC471/lab_6/figures/transient.PNG>] [4 </home/nick/ECEC471/lab_6/figures/layout.PNG> </home/nick/ECEC471/lab_6/figures/drc.PNG>] [5 </home/nick/ECEC471/lab_6/figures/lvs.PNG>] [6
+
+] (/home/nick/ECEC471/lab_6/report.aux) ) 
+Here is how much of TeX's memory you used:
+ 3001 strings out of 480478
+ 41942 string characters out of 5905959
+ 286229 words of memory out of 5000000
+ 19045 multiletter control sequences out of 15000+600000
+ 534761 words of font info for 32 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,7n,37p,227b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /home/nick/ECEC471/lab_6/report.pdf (6 pages, 252255 bytes).
+PDF statistics:
+ 48 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+

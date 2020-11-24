@@ -4,77 +4,65 @@
 \usepackage{xcolor}
 
 \begin{document}
-\title{ECEC 471 Lab 5}
+\title{ECEC 471 Lab 6}
 \author{Nicholas Sica}
-\date{November 16, 2020}
+\date{November 23, 2020}
 \maketitle
 
 \section{Introduction}
 \subsection{Overview}
-This lab is meant to use the knowledge gained in the previous labs to build a multiplexer.
-A multiplexer is a device that uses a select signal to select between different inputs tied
-to it. There are many different size multiplexers, but for this lab a 2-to-1 multiplexer was built.
+This lab is meant to use the knowledge gained in the previous labs to build an edge-triggered flip-flop.
+An edge-triggered flip-flop is a device that saves whatever state is at the input every rising edge of
+the clock signal. It is a type of memory and is essential to sequential digital logic design.
 Rise time and fall time are the time it takes for the ouput to rise from 20\% to 80\% of the total
 voltage or fall from 80\% to 20\% of the total voltage. Propagation delay is the time it takes for
 the output to appear after the input, usually measured by taking the difference of the 50\% marks
-of the input and output.
+of the input and output. The propagation delay is measured using the rising edge of the clock as
+the input. Two new concepts called setup and hold time were also introduced. The setup time is the
+minimum time that is needed for the data to be stable before the rising edge of the clock. The hold
+time is how long after the rising edge of the clock the data needs to be stable. Violation of these
+times can cause a flip-flop to not be able to save the state correctly.
 \section{Simulation and Analysis}
 \subsection{Schematic Design}
-Figure~\ref{fig:schem} shows the transistor-level schematic of the multiplexer.
-It is made up of an inverter leading into a nand tied to one side of a nand gate,
-while a nand is tied to the other side of the nand gate. The width of all the devices is the
+Figure~\ref{fig:schem} shows the transistor-level schematic of the edge-triggered flip-flop.
+It is made up of five 2-input nand gates and one 3-input nand. The width of all the devices is the
 default symmetric version of that gate.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=5in]{figures/schem.png}
-  \caption{Transistor-level Mux Schematic}\label{fig:schem}
+  \caption{Transistor-level Edge-Triggered Flip-Flop Schematic}\label{fig:schem}
 \end{figure}
 Figure~\ref{fig:sim} shows the simulation schematic with the source and load. 
-Three different pulses are used so we can measure the propagation delay of the select signal
-given different sets of input signals. All the pulses have an amplitude of 1.2V, a rise time of
-10ps, and a fall time of 10ps.
-While the inputs have a pulse width of 3ns and a period of 6ns, the select signal has a pulse width of 1ns and a
-period of 2ns. The only signal with a delay is in1 with a value of 3ns, which allows us to get the values we need
-on the table.
-A 10fF capacitor was tied to the output to get it closer to a realistic model where the output of the
-multiplexer would have some capacitance.
+Two different pulses are used, one acting as the clock and the other acting as the data.
+All the pulses have an amplitude of 1.2V, a rise time of 10ps, and a fall time of 10ps.
+While the clock has a pulse width of 240ps and a period of 500ps, the data has a pulse width of 45ps,
+a delay of 494.5ps, and a period of 1ns.
+A 5fF capacitor was tied to each output to get it closer to a realistic model where the output would have some capacitance.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=5in]{figures/sim.png}
-  \caption{Mux Simulation Schematic}\label{fig:sim}
+  \caption{Edge-Triggered Flip-Flop Simulation Schematic}\label{fig:sim}
 \end{figure}
-The transient analysis is shown in Figure~\ref{fig:transient}. Using the transient analysis graph
-rise time of 108.52ps and a fall time of 52.49ps were easily found. 
-The values for the propagation delays are listed in Table~\ref{table:results}.
+The transient analysis is shown in Figure~\ref{fig:transient}. Using the transient analysis graph a
+rise time of 58.3657ps, a fall time of 35.6452ps, and a clock-to-q propagation delay of 80.4614ps were all
+easily found. Setup and hold time were found by setting the delay and width of the data to a variable
+and doing a parametric sweep to find the minimum time where the flip-flop would still work.
+The setup and hold time were found to be 5.5ps and 49.5ps, respectively.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=5in]{figures/transient.png}
-  \caption{Mux Transient Analysis}\label{fig:transient}
+  \caption{Edge-Triggered Flip-Flop Transient Analysis}\label{fig:transient}
 \end{figure}
-\begin{table}[!htb]
-  \centering
-  \caption{Propagation Delay of Select}\label{table:results}
-  \begin{tabular}{ |l|l|l|l|l| }
-    \hline
-    IN0 & IN1 & SEL & Q & Delay(ps) \\
-    \hline
-    0 & 1 & 0 & 0 & 49.26 \\
-    0 & 1 & 1 & 1 & 89.77 \\
-    1 & 0 & 0 & 1 & 91.24 \\
-    1 & 0 & 1 & 0 & 54.20 \\
-    \hline
-  \end{tabular}
-\end{table}
 \subsection{Layout Design}
-After the multiplexer's schematic was finished, layout was done. The layout was done using
-pitch matching and using the previous layouts that were created for the symmtric gates.
+After the edge-triggered flip-flop's schematic was finished, layout was done. The layout was done using
+pitch matching and using the previous layouts that were created for the symmetric gates.
 After the gates' layouts were place metal was placed between the designs and the pins were
 placed. A second metal was also used to route parts that are supposed to be tied together, but are
 on opposite sides of the design. The layout is shown in Figure~\ref{fig:layout}.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=5in]{figures/layout.png}
-  \caption{Mux Layout}\label{fig:layout}
+  \caption{Edge-Triggered Flip-Flop Layout}\label{fig:layout}
 \end{figure}
 Lastly, design rule checking(DRC) is used to make sure that no design rules are being violated and
 everything is fixed very painstakingly. The results for the design rule checking are shown in
@@ -96,8 +84,8 @@ The lab was a great way to cement everything that was learned previously and get
 creating a layout with previously designed gates. Pitch matching saves a lot of time in the long run and
 allows heavy design reuse. It also helped in tracking down any issues as the designs of the gates have
 been verified, so if there was anything wrong, it was easy to figure out that it was in the interconnection
-of the separate gates. This lab allowed us to get insight into one of the most important tools in any
-digital designers toolbox, the multiplexer.
+of the separate gates. It also helped us through figuring out the minimum setup and hold time needed for
+a specific piece of sequential logic.
 \end{document}
 %%% Local Variables:
 %%% mode: latex
