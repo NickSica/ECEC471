@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.7)  12 NOV 2020 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.10.7)  5 DEC 2020 18:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -168,25 +168,27 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
+) (/usr/share/texmf-dist/tex/latex/capt-of/capt-of.sty
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count191
 \l__pdf_internal_box=\box51
 ) (/home/nick/ECEC471/final_paper/report.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 -- Lines per column: 56 (exact).
 \c@lstlisting=\count192
@@ -209,44 +211,44 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 39.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 39.
-<figures/curr_ruth.png, id=1, 451.6875pt x 345.54094pt>
-File: figures/curr_ruth.png Graphic file (type png)
-<use figures/curr_ruth.png>
-Package pdftex.def Info: figures/curr_ruth.png  used on input line 53.
-(pdftex.def)             Requested size: 252.0pt x 192.78453pt.
-<figures/3d_cmos.PNG, id=2, 592.46344pt x 289.83281pt>
+<figures/3d_cmos.PNG, id=1, 592.46344pt x 289.83281pt>
 File: figures/3d_cmos.PNG Graphic file (type png)
 <use figures/3d_cmos.PNG>
-Package pdftex.def Info: figures/3d_cmos.PNG  used on input line 58.
+Package pdftex.def Info: figures/3d_cmos.PNG  used on input line 29.
 (pdftex.def)             Requested size: 516.0pt x 252.43553pt.
-<figures/electrodepo.png, id=4, 931.22906pt x 1155.56718pt>
-File: figures/electrodepo.png Graphic file (type png)
-<use figures/electrodepo.png>
-Package pdftex.def Info: figures/electrodepo.png  used on input line 64.
-(pdftex.def)             Requested size: 252.0pt x 312.69498pt.
-<figures/inter_fab.png, id=5, 574.39594pt x 322.20375pt>
-File: figures/inter_fab.png Graphic file (type png)
-<use figures/inter_fab.png>
-Package pdftex.def Info: figures/inter_fab.png  used on input line 70.
-(pdftex.def)             Requested size: 252.0pt x 141.3571pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- </home/nick/ECEC471/final_paper/figures/curr_ruth.png>]
-<figures/nanowire_transistor.png, id=14, 602.25pt x 451.6875pt>
+ </home/nick/ECEC471/final_paper/figures/3d_cmos.PNG>]
+<figures/curr_ruth.png, id=12, 451.6875pt x 345.54094pt>
+File: figures/curr_ruth.png Graphic file (type png)
+<use figures/curr_ruth.png>
+Package pdftex.def Info: figures/curr_ruth.png  used on input line 65.
+(pdftex.def)             Requested size: 252.0pt x 192.78453pt.
+<figures/electrodepo.png, id=13, 931.22906pt x 1155.56718pt>
+File: figures/electrodepo.png Graphic file (type png)
+<use figures/electrodepo.png>
+Package pdftex.def Info: figures/electrodepo.png  used on input line 79.
+(pdftex.def)             Requested size: 252.0pt x 312.69498pt.
+<figures/inter_fab.png, id=14, 574.39594pt x 322.20375pt>
+File: figures/inter_fab.png Graphic file (type png)
+<use figures/inter_fab.png>
+Package pdftex.def Info: figures/inter_fab.png  used on input line 85.
+(pdftex.def)             Requested size: 252.0pt x 141.3571pt.
+<figures/nanowire_transistor.png, id=15, 602.25pt x 451.6875pt>
 File: figures/nanowire_transistor.png Graphic file (type png)
 <use figures/nanowire_transistor.png>
-Package pdftex.def Info: figures/nanowire_transistor.png  used on input line 97.
+Package pdftex.def Info: figures/nanowire_transistor.png  used on input line 104.
 (pdftex.def)             Requested size: 252.0pt x 188.99756pt.
- [2 </home/nick/ECEC471/final_paper/figures/3d_cmos.PNG> </home/nick/ECEC471/final_paper/figures/electrodepo.png> </home/nick/ECEC471/final_paper/figures/inter_fab.png>]
+ [2 </home/nick/ECEC471/final_paper/figures/curr_ruth.png> </home/nick/ECEC471/final_paper/figures/electrodepo.png> </home/nick/ECEC471/final_paper/figures/inter_fab.png>]
 <figures/fpni.png, id=19, 539.01375pt x 297.36093pt>
 File: figures/fpni.png Graphic file (type png)
 <use figures/fpni.png>
-Package pdftex.def Info: figures/fpni.png  used on input line 113.
+Package pdftex.def Info: figures/fpni.png  used on input line 123.
 (pdftex.def)             Requested size: 252.0pt x 139.0246pt.
  (/home/nick/ECEC471/final_paper/report.bbl)
 
@@ -262,15 +264,15 @@ Before submitting the final camera ready copy, remember to:
 
 [3 </home/nick/ECEC471/final_paper/figures/nanowire_transistor.png> </home/nick/ECEC471/final_paper/figures/fpni.png>] (/home/nick/ECEC471/final_paper/report.aux) ) 
 Here is how much of TeX's memory you used:
- 3980 strings out of 480478
- 61047 string characters out of 5905959
- 314116 words of memory out of 5000000
- 20002 multiletter control sequences out of 15000+600000
+ 3989 strings out of 480478
+ 61262 string characters out of 5905959
+ 311078 words of memory out of 5000000
+ 20007 multiletter control sequences out of 15000+600000
  562783 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,8n,37p,377b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,9n,37p,377b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/nick/ECEC471/final_paper/report.pdf (3 pages, 1813663 bytes).
+Output written on /home/nick/ECEC471/final_paper/report.pdf (3 pages, 1813971 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
